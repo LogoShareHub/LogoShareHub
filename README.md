@@ -45,7 +45,7 @@ O LogoShareHub é um repositório de ícones e logotipos disponíveis para uso d
 Pesquisar um ícone preenchido de 16x16 pixels:
 
 ```bash
-./lsh-lsh-search.sh --find star --type svg --resolution 16x16 --category icon --style fill
+./lsh-search.sh --find star --type svg --resolution 16x16 --category icon --style fill
 ```
 
 ## Adicionando Novos Itens
