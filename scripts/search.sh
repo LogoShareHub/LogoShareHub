@@ -14,9 +14,9 @@ function check_link() {
     local url=$1
     local http_status=$(curl -s -o /dev/null -w "%{http_code}" "$url")
     if [ "$http_status" -eq 200 ]; then
-        echo "[Exist]:$url"
+        echo "[Success]:$url"
     else
-        echo "[NotExist]:$url"
+        echo "[Error]: not found."
     fi
 }
 if [ "$#" -lt 2 ]; then
