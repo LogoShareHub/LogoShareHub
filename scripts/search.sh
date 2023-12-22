@@ -11,11 +11,12 @@ function display_help() {
     exit 1
 }
 function check_link() {
-    local = url="$1"
-    if curl --output /dev/null --silent -head --fail "$url"; then
-        echo "[.]:$url"
+    local url=$1
+    local http_status=$(curl -s -o /dev/null -w "%{http_code}" "$url")
+    if [ "$http_status" -eq 200 ]; then
+        echo "[Exist]:$url"
     else
-        echo "[X]:$url"
+        echo "[NotExist]:$url"
     fi
 }
 if [ "$#" -lt 2 ]; then
@@ -53,6 +54,6 @@ while [ "$#" -gt 0 ]; do
             ;;
     esac
 done
-GITHUB_REPO="https://github.com/LogoShareHub/LogoShereHub/assets"
+GITHUB_REPO="https://raw.githubusercontent.com/LogoShareHub/LogoShereHub/main/assets"
 SEARCH_URL="$GITHUB_REPO/$CATEGORY/$STYLE/$RESOLUTION/$FIND_TERM.$TYPE"
-check_link "$SEARCH_URL"
+check_link "$SEARCH_URL" "$GITHUB_REPO"
