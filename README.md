@@ -18,13 +18,13 @@ O LogoShareHub é um repositório de ícones e logotipos disponíveis para uso d
 3. Conceda permissão de execução ao script de pesquisa:
 
    ```bash
-   chmod +x search.sh
+   chmod +x lsh-search.sh
    ```
 
 4. Execute o script de pesquisa de assets:
 
     ```bash
-    ./search.sh --find termo --type png --resolution 64x64 --category icon --style fill
+    ./lsh-search.sh --find termo --type png --resolution 64x64 --category icon --style fill
     ```
 
 4. Siga as instruções no guia de uso para encontrar e acessar os assets.
@@ -45,7 +45,7 @@ O LogoShareHub é um repositório de ícones e logotipos disponíveis para uso d
 Pesquisar um ícone preenchido de 16x16 pixels:
 
 ```bash
-./search.sh --find star --type svg --resolution 16x16 --category icon --style fill
+./lsh-lsh-search.sh --find star --type svg --resolution 16x16 --category icon --style fill
 ```
 
 ## Adicionando Novos Itens
