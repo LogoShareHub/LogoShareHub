@@ -2,7 +2,7 @@
 
 O LogoShareHub é um repositório de ícones e logotipos disponíveis para uso de desenvolvedores. Você pode pesquisar, encontrar e acessar facilmente assets para melhorar suas aplicações.
 
-## Instalação
+## Execução
 
 1. Clone o repositório para o seu ambiente local:
 
@@ -13,10 +13,15 @@ O LogoShareHub é um repositório de ícones e logotipos disponíveis para uso d
 2. Navegue até o diretório do projeto:
 
     ```bash
-    cd LogoShareHub
+    cd LogoShareHub/scripts
     ```
+3. Conceda permissão de execução ao script de pesquisa:
 
-3. Execute o script de pesquisa de assets:
+   ```bash
+   chmod +x search.sh
+   ```
+
+4. Execute o script de pesquisa de assets:
 
     ```bash
     ./search.sh --find termo --type png --resolution 64x64 --category icon --style fill
@@ -37,18 +42,20 @@ O LogoShareHub é um repositório de ícones e logotipos disponíveis para uso d
 
 ### Exemplo de Uso
 
-Pesquisar um ícone preenchido de 64x64 pixels:
+Pesquisar um ícone preenchido de 16x16 pixels:
 
 ```bash
-./search.sh --find coração --type svg --resolution 64x64 --category icon --style fill
+./search.sh --find star --type svg --resolution 16x16 --category icon --style fill
+```
 
 ## Adicionando Novos Itens
 
 Se você deseja contribuir adicionando novos ícones ou logotipos ao LogoShareHub, siga estas etapas:
 
 1. **Estrutura do Diretório:**
-   - Adicione o novo item ao diretório correspondente usando o padrão: `$RESOLUTION/$FIND_TERM.$TYPE`
-   - Exemplo: `64x64/heart.svg`
+   - Adicione o novo item ao diretório correspondente usando o padrão: `$CATEGORY/$STYLE/$RESOLUTION/$FIND_TERM.$TYPE`
+   - Exemplo: `logo/color/64x64/star_wars.svg`
+   - **Importante:** O `FIND_TERM` deve ser em letras minúsculas e, se necessário, utilize `_` como separador.
 
 2. **Atualizando o Arquivo JSON de Catálogo:**
    - Abra o arquivo `catalog.json` no diretório raiz do projeto.
@@ -77,6 +84,6 @@ Se você deseja contribuir adicionando novos ícones ou logotipos ao LogoShareHu
    - Commit e envie um pull request.
 
 4. **Análise e Integração:**
-   - Seu pull request será revisado e, se estiver de acordo com as diretrizes, será integrado ao projeto.
+   - Seu pull request será revisado e, se estiver de acordo com as regras acima, será integrado ao projeto.
 
 Lembre-se de seguir as melhores práticas de contribuição e fornecer informações detalhadas sobre o novo item no arquivo JSON. Obrigado por contribuir para o LogoShareHub!
