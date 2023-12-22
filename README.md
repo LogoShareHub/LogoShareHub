@@ -41,3 +41,42 @@ Pesquisar um ícone preenchido de 64x64 pixels:
 
 ```bash
 ./search.sh --find coração --type svg --resolution 64x64 --category icon --style fill
+
+## Adicionando Novos Itens
+
+Se você deseja contribuir adicionando novos ícones ou logotipos ao LogoShareHub, siga estas etapas:
+
+1. **Estrutura do Diretório:**
+   - Adicione o novo item ao diretório correspondente usando o padrão: `$RESOLUTION/$FIND_TERM.$TYPE`
+   - Exemplo: `64x64/heart.svg`
+
+2. **Atualizando o Arquivo JSON de Catálogo:**
+   - Abra o arquivo `catalog.json` no diretório raiz do projeto.
+   - Adicione uma nova entrada para o item no formato:
+
+     ```json
+     {
+        "name": "nome-do-item",
+        "styles": ["estilo"],
+        "category": ["categoria"],
+        "resolutions": ["resolucao"],
+        "types": ["tipo"]
+     }
+     ```
+
+     - `nome-do-item`: Nome do novo ícone ou logotipo.
+     - `estilo`: Estilo do item (ex: fill, outline).
+     - `categoria`: Categoria do item (ex: icon, logo).
+     - `resolucao`: Resolução do item (ex: 16x16).
+     - `tipo`: Tipo do item (ex: svg, png).
+
+3. **Envio de Pull Request:**
+   - Faça um fork do repositório para a sua conta GitHub.
+   - Clone o seu fork para o seu ambiente local.
+   - Adicione o novo item conforme as etapas acima.
+   - Commit e envie um pull request.
+
+4. **Análise e Integração:**
+   - Seu pull request será revisado e, se estiver de acordo com as diretrizes, será integrado ao projeto.
+
+Lembre-se de seguir as melhores práticas de contribuição e fornecer informações detalhadas sobre o novo item no arquivo JSON. Obrigado por contribuir para o LogoShareHub!
