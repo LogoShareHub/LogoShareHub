@@ -10,7 +10,7 @@ O LogoShareHub é um repositório de ícones e logotipos disponíveis para uso d
     git clone https://github.com/LogoShareHub/LogoShereHub.git
     ```
 
-2. Navegue até o diretório do projeto:
+2. Navegue até o diretório do arquivo executavel:
 
     ```bash
     cd LogoShareHub/scripts
