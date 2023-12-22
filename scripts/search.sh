@@ -2,11 +2,11 @@
 
 function display_help() {
     echo "Uso: $0 [--find FIND_TERM] [--type TYPE] [--resolution RESOLUTION] [--category CATEGORY] [--style STYLE]"
-    echo "   --find FIND_TERM       Termo de pesquisa para encontrar o item"
-    echo "   --type TYPE            Tipo do item (ex: svg, png)"
-    echo "   --resolution RESOLUTION Resolução do item (ex: 32x32, 64x64)"
-    echo "   --category CATEGORY    Categoria do item (ex: icon, logo)"
-    echo "   --style STYLE          Estilo do item (ex: fill, outline)"
+    echo "   -f,--find FIND_TERM       Termo de pesquisa para encontrar o item"
+    echo "   -t,--type TYPE            Tipo do item (ex: svg, png)"
+    echo "   -r,--resolution RESOLUTION Resolução do item (ex: 32x32, 64x64)"
+    echo "   -c,--category CATEGORY    Categoria do item (ex: icon, logo)"
+    echo "   -s,--style STYLE          Estilo do item (ex: fill, outline)"
     echo "   -h, --help             Exibe esta mensagem de ajuda"
     exit 1
 }
@@ -24,23 +24,23 @@ fi
 
 while [ "$#" -gt 0 ]; do
     case "$1" in
-        --find)
+        -f|--find)
             FIND_TERM="$2"
             shift 2
             ;;
-        --type)
+        -t|--type)
             TYPE="$2"
             shift 2
             ;;
-        --resolution)
+        -r|--resolution)
             RESOLUTION="$2"
             shift 2
             ;;
-        --category)
+        -c|--category)
             CATEGORY="$2"
             shift 2
             ;;
-        --style)
+        -s|--style)
             STYLE="$2"
             shift 2
             ;;
