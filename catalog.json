@@ -1,0 +1,16 @@
+[    
+    {
+        "name": "star",
+        "styles": ["icon"],
+        "category": ["fill","outline"],
+        "resolutions": ["16x16"],
+        "types": ["svg"]
+    },
+    {
+        "name": "facebook",
+        "styles": ["logo"],
+        "category": ["color","fill","outline"],
+        "resolutions": ["24x24"],
+        "types": ["svg"]
+    }
+]
