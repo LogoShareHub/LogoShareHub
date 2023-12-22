@@ -7,7 +7,7 @@ O LogoShareHub é um repositório de ícones e logotipos disponíveis para uso d
 1. Clone o repositório para o seu ambiente local:
 
     ```bash
-    git clone https://github.com/LogoShareHub/LogoShereHub.git
+    git clone https://github.com/LogoShareHub/LogoShareHub.git
     ```
 
 2. Navegue até o diretório do arquivo executavel:
