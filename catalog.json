@@ -1,5 +1,12 @@
 [   
     {
+        "name": "snapcraft",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
         "name": "crunchyroll",
         "styles": ["circle","color"],
         "category": ["logo"],
