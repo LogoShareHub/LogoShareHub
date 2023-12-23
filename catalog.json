@@ -1,15 +1,953 @@
 [    
     {
+        "name": "adobeillustrator",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "adobephotoshop",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "adobexd",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "aim",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "airbnb",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "amazon",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "android",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "apple",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "atlassian",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "badoo",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "basecamp",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "behance",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "bing",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "bitbucket",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "bitcoin",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "bittorrent",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "blogger",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "buffer",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "buzzfeed",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "codeopen",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "confluence",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "coub",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "creativemarket",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "dailymotion",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "digg",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "discord",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "dribbble",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "dropbox",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "drupal",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "duckduckgo",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "edge",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "epic games",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "ethereum",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "evernote",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "facebook",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "fancy",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "figma",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "firefox",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "flickr",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "folio",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "foursquare",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "framer",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "github",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "gmail",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "googleplay",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "google",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "hola",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "html5",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "iconjar",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "instagram",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "intercom",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "invision",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "jira",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "kaixin001",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "kakaotalk",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "kickstarter",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "line",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "linkedin",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "mailchimp",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "mail_ru",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "marvel",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "mastercard",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "medium",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "messenger",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "microsoft",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "miliao",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "mi",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "netflix",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "nintendo",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "notion",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "ok",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "opera",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "outlook",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "patreon",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "paypal",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "periscope",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "pinterest",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "playstation",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "pocket",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "producthunt",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "qq",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "quora",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "reddit",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "renren",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "rss",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "safari",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "shopify",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "shutterstock",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "sketch",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "skype",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "slack",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "snapchat",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "spotify",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "stackoverflow",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "steam",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "strava",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "stumbleupon",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "taobao",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "teamviewer",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "telegram",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "tidal",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "tik tok",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "tilda",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "tinder",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "tor",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "treehouse",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "trello",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "tripadvisor",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "tumblr",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "twitch",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "twitter",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "ubuntu",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "ui8",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "uplabs",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "utorrent",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "viadeo",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "viber",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "vimeo",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "vine",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "visa",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "vk",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "wechat",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "weibo",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "whatsapp",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "windows",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "wordpress",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "www",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "xbox",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "yandexbrowser",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "yelp",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "youtube",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "zendesk",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "zerpply",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
+        "name": "zoom",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },
+    {
         "name": "star",
-        "styles": ["icon"],
-        "category": ["fill","outline"],
+        "styles": ["fill","outline"],
+        "category": ["icon"],
         "resolutions": ["16x16"],
         "types": ["svg"]
     },
     {
         "name": "facebook",
-        "styles": ["logo"],
-        "category": ["color","fill","outline"],
+        "styles": ["color","fill","outline"],
+        "category": ["logo"],
         "resolutions": ["24x24"],
         "types": ["svg"]
     }
