@@ -1,5 +1,12 @@
 [    
     {
+        "name": "catho",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },    
+    {
         "name": "binance",
         "styles": ["circle","color"],
         "category": ["logo"],
