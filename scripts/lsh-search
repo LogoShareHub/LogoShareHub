@@ -16,7 +16,7 @@ function check_link() {
     if [ "$http_status" -eq 200 ]; then
         echo "[Success]:$url"
     else
-        echo "[Error]: not found: $url."
+        echo "[Error]: not found."
     fi
 }
 if [ "$#" -lt 2 ]; then
