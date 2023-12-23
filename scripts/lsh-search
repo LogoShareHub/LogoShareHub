@@ -16,7 +16,7 @@ function check_link() {
     if [ "$http_status" -eq 200 ]; then
         echo "[Success]:$url"
     else
-        echo "[Error]: not found."
+        echo "[Error]: not found: $url."
     fi
 }
 if [ "$#" -lt 2 ]; then
@@ -26,23 +26,23 @@ fi
 while [ "$#" -gt 0 ]; do
     case "$1" in
         -f|--find)
-            FIND_TERM="$2"
+            FIND_TERM=$(echo "$2" | tr '[:upper:]' '[:lower:]')
             shift 2
             ;;
         -t|--type)
-            TYPE="$2"
+            TYPE=$(echo "$2" | tr '[:upper:]' '[:lower:]')
             shift 2
             ;;
         -r|--resolution)
-            RESOLUTION="$2"
+            RESOLUTION=$(echo "$2" | tr '[:upper:]' '[:lower:]')
             shift 2
             ;;
         -c|--category)
-            CATEGORY="$2"
+            CATEGORY=$(echo "$2" | tr '[:upper:]' '[:lower:]')
             shift 2
             ;;
         -s|--style)
-            STYLE="$2"
+            STYLE=$(echo "$2" | tr '[:upper:]' '[:lower:]')
             shift 2
             ;;
         -h|--help)
