@@ -18,7 +18,7 @@ O LogoShareHub é um repositório de ícones e logotipos disponíveis para uso d
 3. Conceda permissão de execução ao script de pesquisa:
 
    ```bash
-   chmod +x lsh-search.sh
+   chmod +x lsh-search
    ```
 
 4. Execute o script de pesquisa de assets:
