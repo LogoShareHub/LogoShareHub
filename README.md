@@ -24,7 +24,7 @@ O LogoShareHub é um repositório de ícones e logotipos disponíveis para uso d
 4. Execute o script de pesquisa de assets:
 
     ```bash
-    ./lsh-search.sh --find termo --type png --resolution 64x64 --category icon --style fill
+    ./lsh-search --find termo --type png --resolution 64x64 --category icon --style fill
     ```
 
 4. Siga as instruções no guia de uso para encontrar e acessar os assets.
