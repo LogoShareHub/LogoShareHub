@@ -1,5 +1,11 @@
 [   
     {
+        "name": "santander",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },{
         "name": "zoho",
         "styles": ["circle","color"],
         "category": ["logo"],
