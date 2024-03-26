@@ -1,5 +1,11 @@
 [   
     {
+        "name": "heroku",
+        "styles": ["circle","color"],
+        "category": ["logo"],
+        "resolutions": ["48X48"],
+        "types": ["svg"]
+    },{
         "name": "santander",
         "styles": ["circle","color"],
         "category": ["logo"],
